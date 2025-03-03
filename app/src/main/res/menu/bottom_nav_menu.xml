@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/intentsFragment"
+        android:icon="@drawable/ic_circle1"
+        android:title="Instagram"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/serviceFragment"
+        android:icon="@drawable/ic_music"
+        android:title="Music"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/receiverFragment"
+        android:icon="@drawable/ic_airplane_mode"
+        android:title="AirplaneMode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/providerFragment"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar"
+        app:showAsAction="ifRoom" />
+</menu>

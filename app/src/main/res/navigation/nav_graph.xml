@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/intentsFragment">
+
+    <fragment
+        android:id="@+id/intentsFragment"
+        android:name="com.example.android_advanced_lab1.instagram_story.IntentsFragment"
+        android:label="Intents"
+        tools:layout="@layout/fragment_intents" />
+
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.android_advanced_lab1.music_player.ServiceFragment"
+        android:label="Service"
+        tools:layout="@layout/fragment_service" />
+
+    <fragment
+        android:id="@+id/receiverFragment"
+        android:name="com.example.android_advanced_lab1.airplane_mode.ReceiverFragment"
+        android:label="Receiver"
+        tools:layout="@layout/fragment_receiver" />
+
+    <fragment
+        android:id="@+id/providerFragment"
+        android:name="com.example.android_advanced_lab1.calendar_events.ProviderFragment"
+        android:label="Provider"
+        tools:layout="@layout/fragment_provider" />
+
+</navigation>
