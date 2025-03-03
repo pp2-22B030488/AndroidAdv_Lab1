@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/background_insta">
 
     <ImageView
         android:id="@+id/imagePreview"
@@ -17,12 +18,16 @@
         android:id="@+id/btnPickImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Выбрать изображение" />
+        android:backgroundTint="#FFFF00"
+        android:text="Выбрать изображение"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/btnShareInstagram"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
         android:text="Отправить в Instagram Stories"
-        android:enabled="false"/>
+        android:enabled="false"
+        android:textColor="@color/black"/>
 </LinearLayout>
